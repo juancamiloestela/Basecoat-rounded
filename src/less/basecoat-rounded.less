@@ -6,10 +6,10 @@ code.rounded,
 .rounded code,
 input[type="text"].rounded,
 input[type="password"].rounded,
-textarea.rounded,
 .rounded input[type="text"],
 .rounded input[type="password"],
 .rounded textarea,
+textarea.rounded,
 .rounded.button,
 .rounded .button,
 button.rounded,
@@ -18,49 +18,11 @@ button.rounded,
 .rounded .selectjs,
 .rounded.message,
 .rounded .message,
-.rounded.progress,
-.rounded .progress,
-.rounded.progress div,
-.rounded .progress div{
+.rounded .panel,
+.rounded.panel,{
     border-radius: 0.4em;
 }
 
-
-
-.rounded.horizontal.stack > *,
-.rounded .horizontal.stack > *{
-    border-radius:0;
-}
-.rounded.horizontal.stack > *:first-child,
-.rounded.horizontal.stack > *:first-child,
-.rounded .horizontal.stack > *:first-child,
-.rounded .horizontal.stack > *:first-child{
-    border-radius: .4em 0 0 .4em;
-}
-.rounded.horizontal.stack > *:last-child,
-.rounded.horizontal.stack > *:last-child,
-.rounded .horizontal.stack > *:last-child,
-.rounded .horizontal.stack > *:last-child{
-    border-radius: 0 .4em .4em 0;
-}
-
-
-.rounded.vertical.stack > *,
-.rounded .vertical.stack > *{
-    border-radius:0;
-}
-.rounded.vertical.stack > *:first-child,
-.rounded.vertical.stack > *:first-child,
-.rounded .vertical.stack > *:first-child,
-.rounded .vertical.stack > *:first-child{
-    border-radius: .4em .4em 0 0;
-}
-.rounded.vertical.stack > *:last-child,
-.rounded.vertical.stack > *:last-child,
-.rounded .vertical.stack > *:last-child,
-.rounded .vertical.stack > *:last-child{
-    border-radius: 0 0 .4em .4em;
-}
 
 /* Badges */
 .rounded.badge,
@@ -85,5 +47,9 @@ button.rounded,
         .indicator{
             border-radius:1em;
         }
+    }
+
+    .selectjs{
+        border-radius: 0.4em;
     }
 }

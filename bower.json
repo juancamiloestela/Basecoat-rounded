@@ -8,6 +8,9 @@
 	"dependencies": {
 		
 	},
+	"devDependencies": {
+		"basecoat": "/Users/Juank/Sites/BasecoatCSS/.git#dev"
+	},
 	"description": "A rounded border coat for BasecoatCSS",
 	"main": [
 		"dist/css/basecoat-rounded.css"

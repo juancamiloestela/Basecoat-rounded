@@ -1,0 +1,29 @@
+{
+	"name": "basecoat-rounded",
+	"version": "1.0.1",
+	"homepage": "https://github.com/juancamiloestela/Basecoat-rounded.js",
+	"authors": [
+		
+	],
+	"dependencies": {
+		
+	},
+	"description": "A rounded border coat for BasecoatCSS",
+	"main": [
+		"dist/css/basecoat-rounded.css"
+	],
+	"keywords": [
+		"rounded",
+		"basecoat",
+		"ui",
+		"front-end"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
+}
